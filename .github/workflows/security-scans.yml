@@ -46,4 +46,4 @@ jobs:
       - name: OWASP ZAP Scan
         uses: zaproxy/action-baseline@v0.14.0
         with:
-          target: 'https://www.zaproxy.org'
+          target: 'https://www.zaproxy.org'                                                                          
