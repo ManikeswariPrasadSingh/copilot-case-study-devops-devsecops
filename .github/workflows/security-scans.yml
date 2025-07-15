@@ -36,6 +36,7 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
+  
   zap-scan:
     needs: snyk-scan
     if: always()
